@@ -1,0 +1,16 @@
+name: py38
+dependencies:
+- pip
+- python=3.8
+- setuptools
+- pip:
+  - parsley
+  - cryptography
+  - paramiko
+  - numpy
+  - scipy
+  - pywavelets
+  - lmfit
+  - jupyter_client
+  - nbsphinx
+  - releases
